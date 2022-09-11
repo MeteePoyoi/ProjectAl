@@ -1,0 +1,25 @@
+fastapi[all]
+uvicorn[standard]
+gunicorn
+pandas
+pydantic
+starlette
+scikit-learn
+loguru
+
+# for tensorflow
+tensorflow==2.9.1
+tensorflow-text
+
+# for PyThaiNLP
+torch
+torchvision
+pythainlp
+sentencepiece
+transformers
+python-crfsuite
+
+# for test unit
+pytest
+pytest-reportportal
+pytest-testdox

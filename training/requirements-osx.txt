@@ -1,0 +1,8 @@
+# must install using conda
+#
+# conda install -c apple tensorflow-deps==2.9.0
+#
+tensorflow-macos==2.9.0
+pandas
+# ../wheel/tensorflow_text-2.9.0-cp39-cp39-macosx_11_0_arm64.whl
+/Users/setta/Documents/Working/convergence/autobot/wheel/tensorflow_text-2.9.0-cp39-cp39-macosx_11_0_arm64.whl

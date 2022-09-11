@@ -1,0 +1,9 @@
+{
+    "description": "Reading response text from CSV file",
+    "moduleName": "model.response.response",
+    "className": "CSVResponse",
+    "version": "0.0.1",
+    "params": {
+        "dataFile": "../../training/dataset/v1/a_data.csv"
+    }
+}

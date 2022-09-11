@@ -1,0 +1,32 @@
+{
+    "responseId": "abf10fd0-b15f-4359-8eb3-7226cd6a134f-f422bbdd",
+    "queryResult": {
+        "queryText": "ขอใบประกาศ",
+        "parameters": {},
+        "allRequiredParamsPresent": true,
+        "fulfillmentText": "แจ้ง ชื่อ นามสกุล และหลักสูตรที่เรียนจบแล้ว ได้เลยครับ",
+        "fulfillmentMessages": [
+            {
+                "text": {
+                    "text": ["แจ้ง ชื่อ นามสกุล และหลักสูตรที่เรียนจบแล้ว ได้เลยครับ"]
+                }
+            }
+        ],
+        "intent": {
+            "name": "f300d944-5eb5-42f9-b55b-f6e2a1cbcd2c",
+            "displayName": "Certificate Request"
+        },
+        "intentDetectionConfidence": 1,
+        "threshold": 0.0,
+        "languageCode": "th",
+        "sentimentAnalysisResult": {
+            "queryTextSentiment": {
+                "score": 0.1,
+                "magnitude": 0.1
+            }
+        }
+    },
+    "agentId": "ef18110f-c9ef-4663-a347-5d84810d98d2",
+    "modelName": "Simple",
+    "version": "0.0.1"
+}

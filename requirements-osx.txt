@@ -1,0 +1,26 @@
+fastapi[all]
+uvicorn[standard]
+gunicorn
+pandas
+pydantic
+starlette
+scikit-learn
+loguru
+
+# for tensorflow
+# tensorflow-text must be install from local source wheel
+tensorflow-macos==2.9.0
+./wheel/tensorflow_text-2.9.0-cp39-cp39-macosx_11_0_arm64.whl
+
+# for PyThaiNLP
+torch
+torchvision
+pythainlp
+sentencepiece
+transformers
+python-crfsuite
+
+# for test unit
+pytest
+pytest-reportportal
+pytest-testdox

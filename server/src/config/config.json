@@ -1,0 +1,9 @@
+{
+    "agentId": "B7EF596A-11BD-4ECC-A748-65D98BF4D28A",
+    "agentName": "Autobot",
+    "log": "config/log.server.json",
+    "model": {
+        "intent": "config/model.simple.json",
+        "response": "config/response.csv.json"
+    }
+}

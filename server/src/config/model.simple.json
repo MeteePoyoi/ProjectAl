@@ -1,0 +1,11 @@
+{
+    "name": "Simple Model",
+    "description": "Finding intent using USE encoder and simple layers",
+    "version": "0.0.1",
+    "moduleName": "model.intent.intent",
+    "className": "BasicIntent",
+    "params": {
+        "modelPath": "../../training/model/simple_v1",
+        "encoderUrl": "https://tfhub.dev/google/universal-sentence-encoder-multilingual-large/3"
+    }
+}

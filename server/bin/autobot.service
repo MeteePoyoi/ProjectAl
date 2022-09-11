@@ -1,0 +1,27 @@
+[Unit]
+Description=Convergence Chatbot
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+User=convergence
+Group=convergence
+ProtectProc=invisible
+
+# change the following directory to match actual installation
+WorkingDirectory=/opt/autobot/autobot/server/src
+
+Environment=VIRTUAL_ENV=/opt/autobot/mol
+Environment=AUTOBOT_CONFIG=/etc/autobot/config/config.json
+Environment=GUNICORN_CONFIG=/etc/autobot/gunicorn.conf.py
+
+# ExecStart must be full path to gunicorn
+ExecStart=/opt/autobot/mol/bin/gunicorn --config $GUNICORN_CONFIG
+
+# Let systemd restart this service always
+Restart=always
+
+SendSIGKILL=yes
+
+[Install]
+WantedBy=multi-user.target

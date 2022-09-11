@@ -1,0 +1,7 @@
+# must install using conda
+#
+# conda install -c apple tensorflow-deps==2.9.0
+#
+tensorflow==2.9.1
+tensorflow-text
+pandas

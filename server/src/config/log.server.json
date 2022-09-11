@@ -1,0 +1,28 @@
+[
+    {
+        "sink": "stdout",
+        "level": "TRACE"
+    },
+    {
+        "sink": "../log/server.log",
+        "rotation": "00:00",
+        "retention": "10 days",
+        "format": "{time:YYYY-MM-DD HH:mm:ss.SSS} | {level: <8} | {process: <5} | {name}:{function}:{line}{extra[padding]} - {message}",
+        "filter": "",
+        "level": "TRACE",
+        "enqueue": true,
+        "backtrace": true,
+        "diagnose": true
+    },
+    {
+        "sink": "../log/server.error.log",
+        "rotation": "00:00",
+        "retention": "60 days",
+        "format": "{time:YYYY-MM-DD HH:mm:ss.SSS} | {level: <8} | {process: <5} | {name}:{function}:{line}{extra[padding]} - {message}",
+        "filter": "",
+        "level": "ERROR",
+        "enqueue": true,
+        "backtrace": true,
+        "diagnose": true
+    }
+]

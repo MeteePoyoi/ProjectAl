@@ -1,0 +1,11 @@
+.DS_Store
+**/log
+**/logs
+**/__pycache__
+**/wheel
+**/tmp
+**/temp
+**/wandb
+**/.vscode
+**/tests/report
+**/*.egg-info

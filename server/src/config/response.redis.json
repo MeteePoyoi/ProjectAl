@@ -1,0 +1,13 @@
+{
+    "description": "Reading response from redis server",
+    "moduleName": "model.response.response",
+    "className": "RedisResponse",
+    "version": "0.0.1",
+    "params": {
+        "host": "",
+        "port": "",
+        "user": "",
+        "password": "",
+        "table": 0
+    }
+}
